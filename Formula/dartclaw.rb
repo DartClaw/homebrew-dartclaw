@@ -1,30 +1,30 @@
 class Dartclaw < Formula
   desc "Security-conscious AI agent runtime"
   homepage "https://github.com/DartClaw/dartclaw"
-  version "0.20.1"
+  version "0.21.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-v#{version}-macos-arm64.tar.gz"
-      sha256 "3406d1ee57f815aa2e445ac255c96e362e65e2c6b87675ae5676a441baf476bf"
+      sha256 "3a7764e3c11167d204053dcbace383210c4b62ac949c584b4d735afa69d272dc"
     end
 
     on_intel do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-v#{version}-macos-x64.tar.gz"
-      sha256 "c85d0bf7a41863ff4f72aeb36048e9f16a550b2df46d762a8a32ad097f5a1bd2"
+      sha256 "4f0e2645d7860555655b376624bbd593498b779470014a9f40dd19e550776e1d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-v#{version}-linux-x64.tar.gz"
-      sha256 "ae6e111b2d5c7011fc259c1cb15c6bc3c58afb98e6f902a15b771e98532da1eb"
+      sha256 "e58876229407d4c860ca07236045ebe96d55a785f33b96c272bb96aeadd52af8"
     end
 
     on_arm do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-v#{version}-linux-arm64.tar.gz"
-      sha256 "46a972a4669c1f6480ce96782b8d689f2e08526b236a64365b7f93c478e86dad"
+      sha256 "5575e161717a4b86dc3dd4bbac64c383711ab5533539808455ba1021b235cb61"
     end
   end
 

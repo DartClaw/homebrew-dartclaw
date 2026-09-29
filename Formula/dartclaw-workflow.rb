@@ -1,30 +1,30 @@
 class DartclawWorkflow < Formula
   desc "Workflow-only DartClaw runner (standalone, no server)"
   homepage "https://github.com/DartClaw/dartclaw"
-  version "0.27.0"
+  version "0.27.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-workflow-v#{version}-macos-arm64.tar.gz"
-      sha256 "6d69570d2fd5a45e14b3a20b7579ee1a5151ea7c693936f9d909248717e3eeb4"
+      sha256 "f97f9c3b81edf0a71b3ae79901b135c33413ccfdf911f07f8772bdc3bc284f6e"
     end
 
     on_intel do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-workflow-v#{version}-macos-x64.tar.gz"
-      sha256 "97e179f2b98e2055f204c04a06e335c05fbec1e5705fec3bf96730e8b156419b"
+      sha256 "c51e54c40cebb848c7f1cbb3d305c46996fd9191563ca4dc5a0ec64ca7e09eb0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-workflow-v#{version}-linux-x64.tar.gz"
-      sha256 "ec53013529435dbc4b375f7ae343d5e476902bb6beb50106865f01e3c1e93392"
+      sha256 "3799adaa1edf42f95de12a69f921d9ea92fc27e3c37083339a6099a53369ac5d"
     end
 
     on_arm do
       url "https://github.com/DartClaw/dartclaw/releases/download/v#{version}/dartclaw-workflow-v#{version}-linux-arm64.tar.gz"
-      sha256 "5d9da6395983b2c36dec5a82b3c54a7e337b845585cf3731287ae916a9f6d7c0"
+      sha256 "cfe93dfc3e7041b4ffac2b5dec2117c2d188e88e978562dc9a83b76b6b441839"
     end
   end
 
